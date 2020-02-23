@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "nataldomain",
+	"version": "${version}",
+	"name": "Natal Domain",
+	"description": "A dimension enterable through the dragon egg.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Natal-Domain#readme",
+		"issues": "https://github.com/haykam821/Natal-Domain/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/nataldomain/icon.png",
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.nataldomain.Main"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric": "*"
+	}
+}
